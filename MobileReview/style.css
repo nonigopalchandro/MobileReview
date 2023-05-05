@@ -1,0 +1,186 @@
+/* 
+Theme Name: MobileReview
+Theme URI: https://nonigopal.com
+Author: Noni Gopal Chandro
+Author URI: https://facebook.com/nazmul.7462
+Description: this is a custom theme that created by me (Noni Gopal Chandro). and this theme not for sell.
+Version: 2.0
+License: No License Required
+Tags: MobileReview
+Text Domain: nonigopal.com
+*/
+.wp-pagenavi a, .wp-pagenavi span {
+	padding: 5px; margin-right: 10px;
+	font-size: 15px; color: white; text-decoration: none;
+	border: 1px solid #ccc; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px;
+	}
+.wp-pagenavi a:hover, .wp-pagenavi span.current {
+	background: blue;
+	color: #fff;
+	border: 1px solid blue;
+	}
+.wp-pagenavi span a{color:red;}
+.wp-pagenavi span.current { font-weight: bold; }
+
+ol.commentlist { list-style:none; margin:0 0 1em; padding:0; text-indent:0; }
+ol.commentlist li { }
+ol.commentlist li.alt { }
+ol.commentlist li.bypostauthor {}
+ol.commentlist li.byuser {}
+ol.commentlist li.comment-author-admin {}
+ol.commentlist li.comment { border-bottom:1px dotted #666; padding:1em; }
+ol.commentlist li.comment div.comment-author {}
+ol.commentlist li.comment div.vcard { font:normal 16px georgia,times,serif; }
+ol.commentlist li.comment div.vcard cite.fn { font-style:normal; }
+ol.commentlist li.comment div.vcard cite.fn a.url {}
+ol.commentlist li.comment div.vcard img.avatar { border:5px solid #ccc; float:right; margin:0 0 1em 1em; }
+ol.commentlist li.comment div.vcard img.avatar-32 {}
+ol.commentlist li.comment div.vcard img.photo {}
+ol.commentlist li.comment div.vcard span.says {}
+ol.commentlist li.comment div.commentmetadata {}
+ol.commentlist li.comment div.comment-meta { font-size:9px; }
+ol.commentlist li.comment div.comment-meta a { color:#ccc; }
+ol.commentlist li.comment p { font-size:11px; margin:0 0 1em; }
+ol.commentlist li.comment ul { font-size:11px; list-style:square; margin:0 0 1em 2em; }
+ol.commentlist li.comment div.reply { font-size:11px; }
+ol.commentlist li.comment div.reply a { font-weight:bold; }
+ol.commentlist li.comment ul.children { list-style:none; margin:1em 0 0; text-indent:0; }
+ol.commentlist li.comment ul.children li {}
+ol.commentlist li.comment ul.children li.alt {}
+ol.commentlist li.comment ul.children li.bypostauthor {}
+ol.commentlist li.comment ul.children li.byuser {}
+ol.commentlist li.comment ul.children li.comment {}
+ol.commentlist li.comment ul.children li.comment-author-admin {}
+ol.commentlist li.comment ul.children li.depth-2 { border-left:5px solid #555; margin:0 0 .25em .25em; }
+ol.commentlist li.comment ul.children li.depth-3 { border-left:5px solid #999; margin:0 0 .25em .25em; }
+ol.commentlist li.comment ul.children li.depth-4 { border-left:5px solid #bbb; margin:0 0 .25em .25em; }
+ol.commentlist li.comment ul.children li.depth-5 {}
+ol.commentlist li.comment ul.children li.odd {}
+ol.commentlist li.even { background:#fff; }
+ol.commentlist li.odd { background:#f6f6f6; }
+ol.commentlist li.parent { border-left:5px solid #111; }
+ol.commentlist li.thread-alt { }
+ol.commentlist li.thread-even {}
+ol.commentlist li.thread-odd {}
+
+
+label{display: block; margin-bottom: 3px;}
+textarea{display: block;}
+
+input[type=text],textarea,select,input[type=file]{
+	width: 70%;
+	background: #fff;
+	border: 1px solid #dbdbdb;
+	border-radius: 4px;
+	color: #2f3432;
+	padding:5px;
+	display: block;
+}
+textarea{height: 300px; width: 90%}
+
+input,textarea,select {margin-bottom: 5px; font-family: "Open Sans", sans-serif;}
+
+form span {
+  color: grey;
+  display: block;
+  font-size: small;
+  margin-bottom: 5px;
+  margin-top: -4px;
+}
+.btn, input[type='submit'] {
+  -moz-user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857;
+margin-bottom: 5px !important;
+  padding: 6px 12px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.btn-primary, input[type='submit']  {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  color: #fff;
+}
+.btn-default {
+  background-color: #fff;
+  border-color: #ccc;
+  color: #333;
+}
+.btn-danger {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    color: #fff;
+}
+.btn-info {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+  color: #fff;
+}
+.btn-success {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  color: #fff;
+}
+.btn-warning {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+  color: #fff;
+}
+.btn-small {
+	padding: 3px 5px;
+	font-size: 13px;
+}
+a.btn {color: #fff;}
+a.white-btn{color: #fff;}
+a.btn.btn-primary {
+  color: #fff;
+}
+a.btn.btn-default,a.black-btn {
+  color: #333;
+}
+a.btn:hover,a.white-btn, a.black-btn{
+	text-decoration: none;
+}
+.margin_top{
+	margin-top: 10px;
+}
+.margin_bottom{
+	margin-bottom: 10px;
+}
+.mar5{margin: 5px;}
+pre {
+  background-color: rgba(0, 0, 0, 0.01);
+  border: 1px solid rgba(51, 51, 51, 0.1);
+  margin-bottom: 5px;
+  max-width: 100%;
+  overflow: auto;
+  padding: 0.5em;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.notify.success img {
+  height: 20px;
+  position: absolute;
+  right: 0;
+  top: -10px;
+  width: 20px;
+}
+textarea {
+    display: block;
+    width: 100%;
+    height: 100px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+}
